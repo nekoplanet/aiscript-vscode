@@ -4,6 +4,11 @@ All notable changes to the "aiscript" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.1.16
+- ハイライト：do-while, while, breakのサポート, ラベル構文のサポート
+- 関数のIntellisenseを追加
+  - `Obj:pick`
+
 ## 0.1.15
 - ネームスペース関数の引数でテンプレートリテラルがハイライトされない問題を修正
 
