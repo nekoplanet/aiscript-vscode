@@ -46,6 +46,9 @@
 					"include": "#presets"
 				},
 				{
+					"include": "#labels"
+				},
+				{
 					"include": "#variables"
 				}
 			]
@@ -62,7 +65,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.aiscript",
-					"match": "(return|<:|if|elif|else|for|each|eval|loop|match)(?=[\\s(])"
+					"match": "(return|<:|break|if|elif|else|for|each|eval|loop|while|do|match)(?=[\\s(])"
 				}
 			]
 		},
@@ -235,6 +238,14 @@
 				{
 					"name": "variable.other.readwrite.aiscript",
 					"match": "[a-zA-Z][a-zA-Z0-9_]*"
+				}
+			]
+		},
+		"labels": {
+			"patterns": [
+				{
+					"name": "entity.name.label.aiscript",
+					"match": "#[a-zA-Z][a-zA-Z0-9_]*"
 				}
 			]
 		},
