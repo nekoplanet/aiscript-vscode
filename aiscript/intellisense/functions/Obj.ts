@@ -24,6 +24,7 @@ export default languages.registerCompletionItemProvider('aiscript', {
             createCompletionItemKindMethod('has'),
             createCompletionItemKindMethod('copy'),
             createCompletionItemKindMethod('merge'),
+            createCompletionItemKindMethod('pick'),
         ];
     }
 }, ':');
