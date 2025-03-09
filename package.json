@@ -6,7 +6,7 @@
   "icon": "./assets/aiscript_gd.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aiscript-dev/aiscript-vscode"
+    "url": "https://github.com/nekoplanet/aiscript-vscode"
   },
   "version": "0.1.16",
   "engines": {
@@ -62,7 +62,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@aiscript-dev/aiscript-languageserver": "https://github.com/aiscript-dev/aiscript-languageserver/releases/download/0.1.6/aiscript-dev-aiscript-languageserver-0.1.6.tgz",
+    "@aiscript-dev/aiscript-languageserver": "npm:@nekoplanet/aiscript-languageserver@0.1.6",
     "vscode-languageclient": "^9.0.1"
   }
 }
